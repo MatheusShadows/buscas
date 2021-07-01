@@ -1,32 +1,12 @@
 .cardtxt {
     margin: 2% 2% 2% 2%;
     text-align: left;
-    line-height: 30px;
+    line-height: 20px;
     color: rgb(0, 0, 0);
     background-color: aquamarine;
-    font-size: 20px;
-    width: 300px;
-    height: 100px;
+    width: 100%;
     border: 2px solid rgb(228, 44, 20);
   }
-  .column {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  
-  .row { margin: 0 0px 0 -25px;}
-
-  .row::after {
-    content: "";
-    display: flex;
-    flex-direction: column;
-    clear: both;
-  }  
-  @media screen and (max-width: 640px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
+.cardarea{
+  margin-right: 50px;
+}
